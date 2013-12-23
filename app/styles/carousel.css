@@ -1,0 +1,35 @@
+.carousel {
+	height:274px;
+	width: 1074px;
+	margin:auto;
+}
+
+.carousel .btn:first-child {
+	float:left;
+	margin: 0 10px 0 0;
+}
+
+.carousel .btn:last-child {
+	float:right;
+	margin: 0 0 0 10px;
+}
+
+.carousel .mask{
+	width: 974px;
+	height:274px;
+	display:inline-block;
+	position:relative;
+	overflow:hidden;
+}
+
+.carousel .images {
+	height: 274px;
+	position: relative;
+	width:100%;
+	white-space: nowrap;
+	left: -487px;
+}
+
+.carousel .images img {
+	position:relative;
+}
